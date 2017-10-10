@@ -1,0 +1,12 @@
+1.- mvn clean package
+2.- Inspeccionar el jar: target\ejemploProfile-1.0-SNAPSHOT.jar
+3.- En el default package, estará el archivo "desarrollo.properties", ya que
+    el perfil desarrollo está activado por defecto
+4.- mvn clean -PProduccion package
+5.- En el default package, estará el archivo "produccion.properties"
+6.- mvn clean -PDesarrollo package
+7.- En el default package, estará el archivo "desarrollo.properties"
+8.- mvn clean package assembly:assembly
+9.- Inspeccionar target\ejemploProfile-1.0-SNAPSHOT-jar-with-dependencies.jar
+10.- mvn clean package -PProduccion assembly:assembly. Repetir punto 9
+11.- mvn clean package -PDesarrollo assembly:assembly. Repetir punto 9
