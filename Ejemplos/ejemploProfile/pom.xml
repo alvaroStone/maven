@@ -23,6 +23,7 @@
                         <excludes>
                             <exclude>produccion.properties</exclude>
                         </excludes>
+                        <filtering>true</filtering>
                     </resource>
                 </resources>
             </build>
@@ -44,6 +45,7 @@
                         <excludes>
                             <exclude>desarrollo.properties</exclude>
                         </excludes>
+                        <filtering>true</filtering>
                     </resource>
                 </resources> 
             </build>
