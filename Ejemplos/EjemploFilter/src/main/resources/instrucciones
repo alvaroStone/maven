@@ -1,0 +1,7 @@
+Examinar "pom.xml"
+Examinar "filters\filtro.properties"
+Examinar "src\main\resources\app.properties"
+Ejecutar: mvn process-resources
+Examinar "target\classes\app.properties"
+Observamos que los valores de las propiedades han sido
+incluidos por maven
