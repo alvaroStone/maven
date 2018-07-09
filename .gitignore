@@ -24,3 +24,6 @@ hs_err_pid*
 /Ejemplos/modulosagregacion/appweb/target/
 /Ejemplos/ejemploProfile/target/
 /Ejemplos/EjemploFilter/target/
+/Ejemplos/modulos/tercero/target/
+/Ejemplos/modulos/appweb/target/
+/Ejemplos/ejemploSitePlugin/target/
